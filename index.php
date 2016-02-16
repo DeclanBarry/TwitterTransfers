@@ -4,10 +4,10 @@ ini_set( 'display_errors', 1 );
 require_once('TwitterAPIExchange.php');
 
 $settings = array (
-    'oauth_access_token' => "355327178-bA4KvCRFXsGxsZ5gHOqxZCXG9oR9aQT8jKDKfRKU",
+    'oauth_access_token' => "	355327178-bA4KvCRFXsGxsZ5gHOqxZCXG9oR9aQT8jKDKfRKU",
     'oauth_access_token_secret' => "0Kwv3lfICVGWzgcYYQKVkrv6DLLXIQXYlaTu1SWEnrXJf",
-    'consumer_key' => "E2NPo5XNIkKBPcRdIKRbKKSa7",
-    'consumer_secret' => "huBivtvF2p6oFdAzx27GQih7BMUMIdyMRGguiUb2uMY52C2j5U"
+    'consumer_key' => "daVdB5b8SA00mlNbHtdKk7Mhh",
+    'consumer_secret' => "XV3Mo9xFfhjKcicC393Qjyp6VDhpL8z4QzYhkO4L66OoCVJYE0"
 );
 $twitterApi = new TwitterAPIExchange( $settings );
 
